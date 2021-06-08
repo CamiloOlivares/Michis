@@ -28,7 +28,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # local apps
     'applications.animales',
-    'applications.eventos',
+    'applications.tratamientos',
+    'applications.medicamentos',
+    'applications.medicamento_suministrado',
+    'applications.cuidadores',
+    'applications.registros_peso',
+    #
+    'applications.planes_alimentacion',
+    #'applications.imagenes_alimento',
+    'applications.registros_plan_alimentacion',
+    #'applications.alimento_suministrado',
     # third party,
     'rest_framework',
 ]

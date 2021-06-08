@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import (Animales)
 # Register your models here.
+from .models import (Animales)
 
 admin.site.register(Animales)
